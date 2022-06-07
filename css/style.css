@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+html, body{height: 100%;}
+
+.sidebar{
+    float: left;
+    width: 250px;
+    padding: 10px 10px;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.sidebar-wraper{
+    padding-bottom: 200px;
+}
+
+.sidebar-menu{
+    margin: 20px 0;
+    color: rgb(190, 190, 190);
+}
+
+.sidebar-logo img{
+    max-width: 250px;
+    width: 100%;
+}
+
+.sidebar-menu a{
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.sidebar-menu svg{
+    margin:0 20px;
+}
